@@ -1,0 +1,19 @@
+@import 'fonts.css';
+@import 'box-model.css';
+@import 'scaffolding.css';
+
+/* blocks */
+
+@import 'blocks/page.css';
+@import 'blocks/header.css';
+@import 'blocks/menu.css';
+@import 'blocks/lang.css';
+@import 'blocks/main.css';
+@import 'blocks/section.css';
+@import 'blocks/about-me.css';
+@import 'blocks/skills.css';
+@import 'blocks/stars.css';
+@import 'blocks/portfolio.css';
+@import 'blocks/footer.css';
+@import 'blocks/contacts.css';
+@import 'blocks/socials.css';

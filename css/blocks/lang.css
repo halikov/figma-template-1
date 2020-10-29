@@ -1,0 +1,44 @@
+/* Lang */
+
+.lang {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  column-gap: 14px;
+  align-self: start;
+  width: 144px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Gilroy Bold', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  transform: rotate(90deg);
+}
+
+@media (min-width: 600px) {
+  .lang {
+    width: 65px;
+    height: 20px;
+    font-size: 16px;
+  }
+}
+
+/* Item */
+
+.lang__item {
+  text-transform: uppercase;
+}
+
+/* link*/
+
+.lang__link {
+  color: #828282;
+  text-decoration: none;
+}
+
+.lang__link--current,
+.lang__link:active,
+.lang__link:focus {
+  color: #090909;
+}

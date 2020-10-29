@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Denis Novik</title>
+  
+  <!-- Fonts -->
+  <link rel="preload" href="fonts/gilroy-medium.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/gilroy-bold.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/gilroy-medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/gilroy-bold.woff2" as="font" crossorigin="anonymous">
+  
+  <!-- styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page__body">  
+  <header class="header">
+    <nav class="menu">
+      <button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__wrapper">
+        <svg class="menu__icon" aria-hidden="true" width="22" height="22">
+          <use class="menu__icon-menu" href="images/burger.svg#menu"></use>
+          <use class="menu__icon-cross" href="images/burger.svg#cross"></use>
+        </svg>
+      </button>
+      <div class="menu__wrapper" id="menu__wrapper">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link menu__link--current">Home</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">About me</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Skills</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Portfolio</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Contacts</a>
+          </li>
+        </ul>
+        <ul class="menu__lang lang">
+          <li class="lang__item">
+            <a href="#" class="lang__link">RU</a>
+          </li>
+          <li class="lang__item">
+            <a href="#" class="lang__link lang__link--current">ENG</a>
+          </li>
+        </ul>
+      </div><!-- menu__wrapper -->
+    </nav>
+    <div class="header__content">
+      <h1 class="header__title">Denis Novik</h1>
+      <p class="header__caption">
+        UX | UI designer <br>
+        24 years old, Minsk
+      </p>
+    </div>
+    <div class="header__picture">
+      <picture>
+        <source srcset="images/header-img@2.jpg" media="(min-width: 600px)">
+        <img class="header__image" src="images/header-img.jpg" width="316" height="478"  alt="Deniv Novik с кепкой">
+      </picture>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section about-me">
+      <h2 class="section__title">About me</h2>
+      <p class="section__text about-me__text">
+        Hi, I'm Denis – UX/UI designer from Minsk. 
+        I'm interested in design and everything connected with it.
+      </p>
+      <p class="section__text  about-me__text">I'm studying at courses 
+        "Web and mobile design interfaces" 
+        in IT-Academy.
+      </p>
+      <p class="section__text  about-me__text">
+        Ready to implement excellent projects with wonderful people.
+      </p>
+    </section>
+    <!-- About me section -->
+
+    <section class="section skills">
+      <h2 class="section__title">Skills</h2>
+      <p class="section__text skills__text">I work in such programs as</p>
+      <div class="skills__wrapper">
+        <ul class="skills__list">
+          <li class="skills__item">
+            <div class="skills__picture">
+              <img class="skills__img" src="images/PS.png" width="89" height="88" alt="Adobe Photoshop">
+            </div>
+            <div class="skills__name">Adobe Photoshop</div>
+            <div class="skills__rating stars">
+              <svg class="stars__sprite" width="167" height="26">
+                <use class="stars__icon" href="images/sprite-stars.svg#stars4"></use>
+              </svg>
+            </div>
+          </li><!-- Photoshop -->
+          <li class="skills__item">
+            <div class="skills__picture">
+              <img class="skills__img" src="images/AI.png" width="89" height="88" alt="Adobe Illustrator">
+            </div>
+            <div class="skills__name">Adobe Illustrator</div>
+            <div class="skills__rating stars">
+              <svg class="stars__sprite" width="167" height="26">
+                <use class="stars__icon" href="images/sprite-stars.svg#stars3"></use>
+              </svg>
+            </div>
+          </li><!-- Illustrator -->
+          <li class="skills__item">
+            <div class="skills__picture">
+              <img class="skills__img" src="images/AE.png" width="89" height="88" alt="Adobe After Effects">
+            </div>
+            <div class="skills__name">Adobe After&nbsp;Effects</div>
+            <div class="skills__rating stars">
+              <svg class="stars__sprite" width="167" height="26">
+                <use class="stars__icon" href="images/sprite-stars.svg#stars4"></use>
+              </svg>
+            </div>
+          </li><!-- After Effects -->
+          <li class="skills__item">
+            <div class="skills__picture">
+              <img class="skills__img" src="images/Figma.png" width="59" height="88" alt="Figma">
+            </div>
+            <div class="skills__name">Figma</div>
+            <div class="skills__rating stars">
+              <svg class="stars__sprite" width="167" height="26">
+                <use class="stars__icon" href="images/sprite-stars.svg#stars4"></use>
+              </svg>
+            </div>
+          </li><!-- Figma -->
+        </ul>
+      </div>
+    </section>
+    <!-- Skills section -->
+
+    <section class="section portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <ul class="portfolio__list">
+        <li class="portfolio__item">
+          <div class="potfolio__picture">
+            <picture>
+              <source srcset="images/fashion-img@2.jpg" media="(min-width: 600px)">
+              <img class="portfolio__image" src="images/fashion-img.jpg" width="316" height="171" alt="fashion-img">
+            </picture>
+          </div>
+          <p class="portfolio__name">
+            <a href="#" class="portfolio__link">Online fashion store - Homepage</a>
+          </p>
+        </li><!-- fashion -->
+        <li class="portfolio__item">
+          <div class="potfolio__picture">
+            <picture>
+              <source srcset="images/reebok_web@2.jpg" media="(min-width: 600px)">
+              <img class="portfolio__image" src="images/reebok_web.jpg" width="316" height="171" alt="reebok-web-img">
+              </picture>
+          </div>
+          <p class="portfolio__name">
+            <a href="#" class="portfolio__link">Reebok Store - Concept</a>
+          </p>
+        </li><!-- reebok -->
+        <li class="portfolio__item">
+          <div class="potfolio__picture">
+            <picture>
+              <source media="(min-width: 600px)" srcset="images/camera_wb@.jpg">
+              <img class="portfolio__image" src="images/camera_web.jpg" width="316" height="171" alt="camera-web-img">
+            </picture>
+          </div>
+          <p class="portfolio__name">
+            <a href="#" class="portfolio__link">Braun Landing Page - Concept</a>
+          </p>
+        </li><!-- braun -->
+      </ul>
+    </section>
+    <!-- Portfolio section -->
+  </main>
+  <footer class="footer">
+    <div class="contacts">
+      <h2 class="section__title">Contacts</h2>
+      <p class="contacts__text">
+        Want to know more or just chat?
+        You are welcome!
+      </p>
+      <a href="#" class="contacts__btn">Send message</a>
+    </div>
+    <div class="socials">
+      <ul class="socials__list">
+        <li class="socials__item">
+          <a href="#" class="socials__link" aria-label="linkedIn">
+            <svg class="socials__icon" width="40" heigth="40">
+              <use href="images/socials.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="#" class="socials__link" aria-label="Instagram">
+            <svg class="socials__icon" width="40" heigth="40">
+              <use href="images/socials.svg#insta"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="#" class="socials__link" aria-label="Behance">
+            <svg class="socials__icon" width="40" heigth="40">
+              <use href="images/socials.svg#behance"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="#" class="socials__link" aria-label="Dribble">
+            <svg class="socials__icon" width="40" heigth="40">
+              <use class="socials__icon-drible" href="images/socials.svg#dribble"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="footer__text">
+      Like me on <br>
+      LinkedIn, Instagram, Behance, Dribble
+    </p>
+  </footer>
+
+  <script src="js/menu.js"></script>
+</body>
+</html>

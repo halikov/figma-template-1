@@ -1,0 +1,39 @@
+/* Contacts */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  max-width: 340px;
+  background-color: #ffffff;
+}
+
+/* Title */
+
+.contacts__title {
+  text-align: center;
+}
+
+/* text */
+
+.contacts__text {
+  width: 269px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* btn */
+
+.contacts__btn {
+  width: 100%;
+  margin: 0;
+  margin-top: 40px;
+  padding: 12px 97px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #000000;
+}

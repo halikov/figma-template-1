@@ -1,0 +1,9 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 23 23" id="cross">
+    <path fill="#828282" d="M2.69 0l19.35 19.36-2.68 2.68L0 2.7z"></path>
+    <path fill="#828282" d="M.83 19.56L20.2.21l2.68 2.68L3.52 22.25z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 33 20" id="menu">
+    <path fill="#000" d="M0 0h33v3.84H0zm0 7.67h33v3.84H0zm0 7.68h33v3.84H0z"></path>
+  </symbol>
+</svg>

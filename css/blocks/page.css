@@ -1,0 +1,10 @@
+/* Page*/
+
+.page {
+  font-family: 'Gilroy Medium', sans-serif;
+  line-height: 1.23;
+}
+
+.page__body {
+  margin: 0;
+}

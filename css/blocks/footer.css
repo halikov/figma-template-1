@@ -1,0 +1,19 @@
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 80px 30px;
+}
+
+/* Text */
+
+.footer__text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #828282;
+}

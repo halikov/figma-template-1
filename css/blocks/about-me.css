@@ -1,0 +1,16 @@
+/* About me*/
+.about-me {
+  background-color: #f6f6f6;
+}
+
+/* Text */
+
+.about-me__text {
+  max-width: 470px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.about-me__text:last-child {
+  margin-bottom: 0;
+}
