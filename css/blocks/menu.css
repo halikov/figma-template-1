@@ -79,7 +79,6 @@
   display: grid;
   margin: 0;
   padding: 0;
-  list-style: none;
   font-family: 'Gilroy Bold', sans-serif;
   font-size: 34px;
 }
@@ -123,6 +122,7 @@
 
 /* Lang */
 .menu__lang {
+  z-index: 1;
   position: absolute;
 }
 

@@ -12,7 +12,8 @@
 /* Text */
 
 .footer__text {
-  margin: 0;
+  max-width: 340px;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
   color: #828282;
