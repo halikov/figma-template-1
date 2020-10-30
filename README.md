@@ -1,2 +1,1 @@
-# figma-template-1
-Figma portfolio website template
+Верстка по бесплатному шаблону лендинга портфолио. 
